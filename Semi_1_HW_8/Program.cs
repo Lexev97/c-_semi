@@ -8,7 +8,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 if ( a < 0) {
     Console.Write($"Все чётные числа от 1 до {a}: ");
-    for (int i = 0; i > a; i--)
+    for (int i = 0; i >= a; i--)
     {
         if ( i % 2 == 0 && i != 0 )
         {
@@ -19,7 +19,7 @@ if ( a < 0) {
 else
 {
     Console.Write($"Все чётные числа от 1 до {a}: ");
-    for (int i = 1; i < a; i++)
+    for (int i = 1; i <= a; i++)
     {
         if ( i % 2 == 0)
         {
