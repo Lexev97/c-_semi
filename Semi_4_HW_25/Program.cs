@@ -5,7 +5,7 @@
 
 
 
-Console.WriteLine("Введите произвольное число: ");
+Console.WriteLine("Введите два числа: ");
 Console.Write("A: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("B: ");
