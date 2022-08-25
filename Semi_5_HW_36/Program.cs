@@ -22,7 +22,7 @@ int SumOfEvenIndex(int[] array)
 
     for (int i = 0; i < array.Length; i++)
     {
-        if (i % 2 == 0) result += array[i];
+        if (i % 2 != 0) result += array[i];
     }
 
     return result;
@@ -39,7 +39,7 @@ void PrintArray(int[] array)
     Console.Write("]");
 }
 
-int[] arr = CreateArrayRndInt(3, 0, 3);
+int[] arr = CreateArrayRndInt(5, 0, 6);
 
 PrintArray(arr);
 Console.Write($" -> {SumOfEvenIndex(arr)}");
