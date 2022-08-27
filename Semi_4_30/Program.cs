@@ -7,11 +7,9 @@ int[] FillArray()
 {
     int[] array = new int[8];
 
-    Random rnd = Random();
-
     for (int i = 0; i <= 7; i++)
     {
-        array[i] = new rnd.Next(0, 2);
+        array[i] = new Random().Next(0, 2);
     }
 
     return array;

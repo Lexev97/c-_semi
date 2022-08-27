@@ -5,7 +5,7 @@
 // 4 -> 10
 // 8 -> 36
 
-Console.Write("Введите число: ");
+Console.Write("Введите целое положительное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 // int res = 0;
